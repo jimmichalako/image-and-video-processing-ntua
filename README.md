@@ -2,8 +2,6 @@
 
 This repository showcases the laboratory assignments, algorithmic implementations, and deep learning models I completed during the Image and Video Processing course at the National Technical University of Athens (NTUA), School of Electrical and Computer Engineering. Through this coursework, I built an applied foundation across classic digital image processing and modern vision paradigms, implementing multiresolution pyramid coding and entropy-constrained quantization from scratch, as well as designing, training, and benchmarking deep convolutional neural networks (LeNet, AlexNet, VGG) on CIFAR-100 using PyTorch.
 
----
-
 ## Laboratory Exercises & Assignments
 
 ### Assignment 1: Multiresolution Pyramid Coding & Image Quantization
@@ -24,8 +22,6 @@ This repository showcases the laboratory assignments, algorithmic implementation
   * **Model Engineering & Training:** Built, trained, and evaluated deep CNN models in PyTorch. Explored convolutional feature extraction depth, batch normalization, learning rate scheduling, cross-entropy optimization, and regularization strategies to mitigate overfitting on fine-grained image classes.
   * **Performance Diagnostics:** Evaluated accuracy curves, loss convergence, confusion matrices, and per-class precision/recall metrics.
 * **Tech Stack:** Python, PyTorch, Torchvision, NumPy, Matplotlib, Jupyter Notebook / Google Colab.
-
----
 
 ## Technologies Used
 
