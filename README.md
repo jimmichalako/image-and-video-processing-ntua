@@ -12,7 +12,7 @@ This repository showcases the laboratory assignments, algorithmic implementation
 * **Key Tasks:**
   * **Theory:** Analyzed "The Laplacian Pyramid as a Compact Image Code" (Burt & Adelson), investigating the influence of generating kernel parameter $a$ on Gaussian filtering, theoretical maximum entropy for 8-bit grayscale images ($8\text{ bits/pixel}$), quantization bin size tradeoffs, and multi-tier quantization across pyramid depths.
   * **Pyramid Algorithm Implementation:** Programmed custom 5-tap generating kernels (`GKernel`), downsampling reduction filters (`GREDUCE`), iterative Gaussian pyramids (`GPyramid`), upsampling expansion filters (`GEXPAND`), Laplacian bandpass difference pyramids (`LPyramid`), exact reconstruction decoders (`L_Pyramid_Decode`), and Laplacian quantization stages (`L_Quantization`).
-  * **Experimental Evaluation:** Validated reconstruction fidelity on standard benchmarks (`Lena`, `camera`) across RGB and grayscale formats. Conducted parameter sweeps over $a \in [0.3, 0.7]$ and decomposition depths ($3$–$6$), identified optimal $a$ yielding minimal first-order entropy at each octave, and evaluated rate-distortion effects under variable quantization bin widths.
+  * **Experimental Evaluation:** Validated reconstruction fidelity on standard benchmarks (`Lena`, `camera`) across RGB and grayscale formats. Conducted parameter sweeps over $a \in [0.3, 0.7]$ and decomposition depths $(3–6)$, identified optimal $a$ yielding minimal first-order entropy at each octave, and evaluated rate-distortion effects under variable quantization bin widths.
 * **Tech Stack:** Python, NumPy, SciPy, Matplotlib, scikit-image, Jupyter Notebook.
 
 ### Assignment 2: Deep Convolutional Architectures & CIFAR-100 Classification
